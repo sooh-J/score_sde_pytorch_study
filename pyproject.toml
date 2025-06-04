@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "score-sde-pytorch"
+version = "0.1.0"
+description = ""
+authors = ["sooh-dalpha <suhyeon.jun@dalpha.so>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pandas = "<2.1"
+tensorflow-gan = "^2.1.0"
+tensorflow-io = "^0.37.1"
+tensorflow = ">=2.18"
+tensorflow-addons = "^0.23.0"
+tensorboard = "^2.19.0"
+absl-py = "^2.3.0"
+torch = "^2.7.0"
+torchvision = "^0.22.0"
+ninja = "^1.11.1.4"
+ipykernel = "^6.29.5"
+seaborn = "0.11.2"
+tensorflow-datasets = "4.8.3"
+tensorflow-probability = "^0.25.0"
+matplotlib = "3.7.3"
+ml-collections = "^0"
+jax = "0.4.25"
+jaxlib = "0.4.25"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
